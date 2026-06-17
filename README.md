@@ -27,10 +27,6 @@ scripts/
   qm9_dimenet_energy.py   DimeNet/DimeNet++ QM9 evaluation
 ```
 
-Legacy root-level imports such as `energy_explainer_instance_g.py` can be kept as
-thin compatibility wrappers, but the maintained implementation lives under
-`edma/`.
-
 ## Installation
 
 Create an environment with a PyTorch/PyTorch Geometric stack that matches your
