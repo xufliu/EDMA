@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "edma"
+version = "0.1.0"
+description = "Energy-based Discrete Mask Approximation for QM9 3D molecular graph explanations"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+  { name = "Xufeng Liu" },
+  { name = "Wenhan Gao" },
+  { name = "Yi Liu" },
+]
+dependencies = [
+  "numpy",
+  "scikit-learn",
+  "torch",
+  "torch-geometric",
+]
+
+[tool.setuptools.packages.find]
+include = ["edma*"]
+where = ["."]

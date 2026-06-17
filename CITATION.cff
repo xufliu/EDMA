@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: "Confidence-Aware Explanations for 3D Molecular Graphs via Energy-Based Masking"
+message: "If you use this software, please cite the associated TMLR paper."
+type: software
+authors:
+  - given-names: "Xufeng"
+    family-names: "Liu"
+  - given-names: "Wenhan"
+    family-names: "Gao"
+  - given-names: "Yi"
+    family-names: "Liu"
+repository-code: "https://github.com/xufliu/EDMA"
+license: MIT
+date-released: "2026-06-17"
+preferred-citation:
+  type: article
+  title: "Confidence-Aware Explanations for 3D Molecular Graphs via Energy-Based Masking"
+  authors:
+    - given-names: "Xufeng"
+      family-names: "Liu"
+    - given-names: "Wenhan"
+      family-names: "Gao"
+    - given-names: "Yi"
+      family-names: "Liu"
+  journal: "Transactions on Machine Learning Research"
+  year: 2026
